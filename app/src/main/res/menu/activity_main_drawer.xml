@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Radio">
+        <item
+            android:id="@+id/nav_live"
+            android:icon="@drawable/live"
+            android:title="Live" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/contact"
+            android:title="About" />
+        </item>
+    </group>
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/nav_insta"
+                android:icon="@drawable/insta"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_twiter"
+                android:icon="@drawable/twitter"
+                android:title="Twiter" />
+        </menu>
+    </item>
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/email"
+                android:title="Contact" />
+        </menu>
+    </item>
+</menu>
